@@ -1,7 +1,12 @@
-div {
+div.food-card {
   padding: 1rem;
   background-color: rgb(191 219 254 / 1);
   border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+div.food-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 div > p {
