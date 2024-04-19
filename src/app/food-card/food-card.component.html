@@ -1,1 +1,11 @@
-<p>food-card works!</p>
+<div style="cursor: pointer" (click)="handleFoodClick()">
+  <p>{{ food.name }}</p>
+  <div style="position: relative; width: 200px; height: 200px">
+    <img
+      [ngSrc]="food.image"
+      [alt]="food.name"
+      fill
+      priority
+    />
+  </div>
+</div>

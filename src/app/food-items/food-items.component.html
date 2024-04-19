@@ -1,0 +1,5 @@
+<app-food-card
+  *ngFor="let food of foods"
+  [food]="food"
+  (foodClick)="handleFoodClick($event)"
+></app-food-card>

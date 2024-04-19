@@ -1,0 +1,5 @@
+<main>
+  <app-food-card *ngIf="clickedFood" [food]="clickedFood"></app-food-card>
+  <h1>Select your favourite food</h1>
+  <app-food-items (foodClick)="handleFoodClick($event)"></app-food-items>
+</main>
